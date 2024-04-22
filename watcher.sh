@@ -7,7 +7,7 @@ NAMESPACE="sre"
 DEPLOYMENT="swype-app"
 
 # Maximum number of restarts before scaling down
-MAX_RESTARTS=4
+MAX_RESTARTS=3
 
 while true; do
   # Get the number of restarts of the pod
